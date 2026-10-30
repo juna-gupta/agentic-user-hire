@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "{{APP_ID}}",
+  "name": {
+    "short": "Notes Teammate",
+    "full": "Notes Teammate (agentic user sample)"
+  },
+  "description": {
+    "short": "A teammate that remembers notes for the person who hired it.",
+    "full": "Notes Teammate is a sample agent that you hire from the agent store. Each hire gets its own agent user in Microsoft Teams and its own notes. Tell it \"remember ...\", ask for \"notes\", or ask \"who are you\"."
+  },
+  "developer": {
+    "name": "Contoso (sample)",
+    "mpnId": "",
+    "websiteUrl": "https://go.microsoft.com/fwlink/?linkid=2138949",
+    "privacyUrl": "https://go.microsoft.com/fwlink/?linkid=2138950",
+    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2138865"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2F6FDE",
+  "agenticUserTemplates": [
+    {
+      "id": "{{TEMPLATE_ID}}",
+      "file": "agenticUserTemplateManifest.json"
+    }
+  ]
+}

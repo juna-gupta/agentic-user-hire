@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+appsettings.Local.json
+
+# Per-instance data written by the running agent.
+src/NotesTeammate/data/
+
+# Written by tools/Setup. IDs and the cached sign-in, no secrets, but specific to your tenant.
+tools/Setup/state.json
+tools/Setup/auth-record*.json
+appPackage/build/

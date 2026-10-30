@@ -1,0 +1,6 @@
+{
+  "id": "{{TEMPLATE_ID}}",
+  "schemaVersion": "0.1.0-preview",
+  "agentIdentityBlueprintId": "{{BLUEPRINT_APP_ID}}",
+  "communicationProtocol": "activityProtocol"
+}

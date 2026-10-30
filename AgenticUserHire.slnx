@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NotesTeammate/NotesTeammate.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NotesTeammate.Tests/NotesTeammate.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/Setup/Setup.csproj" />
+  </Folder>
+</Solution>
